@@ -1,77 +1,78 @@
 /*去除内边距,没有链接下划线*/
 * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
 }
-ul{
-	/* 去掉小圆点 */
-		list-style: none;
-		text-decoration: none;
 
-	}
-body{
+ul {
+	/* 去掉小圆点 */
+	list-style: none;
+	text-decoration: none;
+}
+
+body {
 	margin: 0;
 	padding: 0;
 }
-	
-		// /*让<body有20px的内边距*/
-		// body {
-		// 	padding: 20px;
-		// }
-a,li{
+
+// /*让<body有20px的内边距*/
+// body {
+// 	padding: 20px;
+// }
+a,
+li {
 	color: #1d2740;
 	text-shadow: #aee2dd;
-    text-decoration: none !important;
-        // text-align: null;
-}
-a:hover{
-    color: orange !important;
+	text-decoration: none !important;
+	list-style: none;
+	// text-align: null;
 }
 
-
+a:hover {
+	color: orange !important;
+}
 
 // 导航条start
-.navbar{
-    border-top: 4px solid orange;
-    .header {
-        margin: 0 auto;
-        padding-bottom: 12px;
-        
-        .top-menu{
-            // background-color:skyblue !important;
-            height: 30px;
-         
-            padding: 4px 0 12px;
-            margin-bottom: 5px;
-            display: flex;
-            justify-content: end;
-            
-       
-        a{
-            margin-right: 40px;
-            line-height: 24px;
-            font-size: 12px;
-        }
-        }
-    }
-    .navbar-collapse {
-        padding-left: 47px;
-        padding-right: 80px;
-    }
+.navbar {
+	border-top: 4px solid orange;
+
+	.header {
+		margin: 0 auto;
+		padding-bottom: 12px;
+
+		.top-menu {
+			// background-color:skyblue !important;
+			height: 30px;
+			padding: 4px 0 12px;
+			margin-bottom: 5px;
+			display: flex;
+			justify-content: end;
+
+			a {
+				margin-right: 40px;
+				line-height: 24px;
+				font-size: 12px;
+			}
+		}
+	}
+
+	.navbar-collapse {
+		padding-left: 47px;
+		padding-right: 80px;
+	}
 }
+
 // 导航条end
-
 // 左侧菜单 menu-list
-
-.menu-lv-list{
+.menu-lv-list {
 	// background-color: red;
 	height: 90%;
 	width: 300px;
 	z-index: 1;
 	margin-left: 50px;
 	position: absolute;
-	overflow:visible;
+	overflow: visible;
 
 	.detail {
 		height: calc(35*12px + 40px);
@@ -79,6 +80,7 @@ a:hover{
 		background: #fafafa;
 		position: relative;
 		margin-top: 1px;
+
 		.lv {
 			li {
 				height: 35px;
@@ -86,21 +88,20 @@ a:hover{
 				font-size: 14px;
 				padding-left: 20px;
 				position: relative;
-				
-				span{
+
+				span {
 					float: right;
 					border: 1px;
 					padding: 2px;
-					
-					
 				}
 			}
-			li:hover{
-				border: 1px solid ;
+
+			li:hover {
+				border: 1px solid;
 				border-left: 4px solid #eb601a;
 			}
-			
-			.lv-right{
+
+			.lv-right {
 				width: 450px;
 				height: 461px;
 				background: #0086B3;
@@ -109,40 +110,32 @@ a:hover{
 				top: 0;
 				display: none;
 				z-index: 1;
-				scroll-behavior:initial;
+				scroll-behavior: initial;
 			}
-			li:hover .lv-right{
+
+			li:hover .lv-right {
 				display: block;
 			}
-			
-			.lv-bottom{
+
+			.lv-bottom {
 				float: right;
 				border: 1px;
 				padding: 2px;
 			}
 		}
-		}
 	}
-// 轮播图start
-.carousel-inner{
-	
-}	
-//轮播图en
-.carousel-inner{
-	// .item{
-	// 		height: 70% !important;
-	// }
 }
 
 // space-between   start
-.space-between{
+.space-between {
 	// background-color: yellow;
 	width: 1470px;
 	height: 200px;
 	margin-top: 20px;
 	margin-left: 20px;
 	position: relative;
-	.space-between-wrap{
+
+	.space-between-wrap {
 		margin-left: 350px;
 		margin-right: 50px;
 		// background-color:red;
@@ -150,56 +143,50 @@ a:hover{
 		height: 200px;
 		position: absolute;
 		display: flex;
+
 		img {
 			width: 100%;
 			height: 190px;
-			background-color:pink;
+			background-color: pink;
 
 		}
 	}
 }
-  
 
 //  space-between   end 
-
 //栅栏1 start
-.fence-1{
+.fence-1 {
 	margin-top: 80px;
 }
 
-.fence-title{
-	span{
+.fence-title {
+	span {
 		font-size: 18px;
 		text-align: center;
 		width: 30px;
-	height: 30px;
-	border-radius: 50%;
-	color: white;
-	background-color: #eb601a;
-	padding: 8px;
+		height: 30px;
+		border-radius: 50%;
+		color: white;
+		background-color: #eb601a;
+		padding: 8px;
 	}
 
 }
-
-
-
 
 //栅栏1 end
 
 //栅栏2 start
-.fence-2{
-	.fenceimg-left-main{
+.fence-2 {
+	.fenceimg-left-main {
 		border-radius: 5px 0px 0px 5px;
-		 height: 235px;
-width: 100%;
-display: block;
-text-align: center;
-margin: 0 auto #fec763;
+		height: 235px;
+		width: 100%;
+		display: block;
+		text-align: center;
+		margin: 0 auto #fec763;
 		//  width: 352px;
-
-
 	}
-	
+
 	.title-2 {
 		overflow: hidden;
 		text-overflow: ellipsis;
@@ -209,66 +196,124 @@ margin: 0 auto #fec763;
 		-webkit-box-orient: vertical;
 		height: 20%;
 		text-align: left;
-		a{
+
+		a {
 			font-size: 12px;
 		}
 	}
-	.fenceimg-right{
 
+	.fenceimg-right {
 		width: 100%;
-		height:175px;
+		height: 175px;
 		background-color: pink;
 	}
 }
+
 //栅栏2 end
 
-
-
-
 //栅栏3 start
-.fence-3{
-.fence-3-img{
-	width: 100%;
-		height:175px;
-		background-color: pink;
+.fence3 {
+	height: 500px;
+	border: 1px solid;
+	margin: 20px auto;
+	position: relative;
+	overflow: hidden;
+
+	.fence3-ol {
+		width: 160px;
+		height: 15px;
+		position: absolute;
+		bottom: 50px;
+		left: 50%;
+		transform: translateX(-50%);
+		background-color: red;
+
+		li {
+			list-style: none;
+			width: 20px;
+			height: 20px;
+			background-color: black;
+			border-radius: 50%;
+			font-size: 12px;
+			text-align: center;
+			line-height: 20px;
+			float: left;
+			margin: 0 3px;
+			cursor: pointer;
+			color: #fff;
+		}
+	}
+
+	p {
+		margin: 10px auto;
+	}
+
+	.fence3-ul {
+		// width: calc(400px * 6);
+		width: 100%;
+		height: 500px;
+		position: absolute;
+
+		li {
+			width: 100%;
+			height: 500px;
+			list-style: none;
+			float: left;
+
+			img {
+				width: 100%;
+				height: 200px;
+				background-color: pink;
+			}
+		}
+	}
 }
 
+.active {
+	background-color: orange !important;
 }
+
 //栅栏3 end
 
 
 
 // footer
-.footer{
+.footer {
 	text-align: center;
+
 	.footer-top {
 		text-align: left;
 		padding-left: 50px;
-		dd{
+
+		dd {
 			line-height: 30px;
 		}
 	}
+
 	.footer-middle {
 		text-align: left;
 		padding-left: 50px;
 		padding-bottom: 30px;
-		a{
+
+		a {
 			padding: 5px;
 			margin-right: 1px solid;
-			span{
+
+			span {
 				padding-right: 0.375rem;
 				border-right: 1px solid;
 			}
-			
+
 		}
 
 	}
-	.footer-bottom{
-		p{
+
+	.footer-bottom {
+		p {
 			text-align: left;
 			padding-left: 50px;
 			text-align: justify;
 		}
-		
+
 	}
 }
